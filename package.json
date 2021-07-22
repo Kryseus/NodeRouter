@@ -6,7 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kryseus/NodeRouter.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kryseus/NodeRouter/issues"
+  },
+  "homepage": "https://github.com/Kryseus/NodeRouter#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
