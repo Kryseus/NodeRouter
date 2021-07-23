@@ -1,10 +1,12 @@
 {
-  "name": "Node_router",
+  "name": "node_router",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,9 @@
   "homepage": "https://github.com/Kryseus/NodeRouter#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "kill-port": "^1.6.1",
+    "nodemon": "^2.0.12"
   }
 }
